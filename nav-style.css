@@ -1,0 +1,250 @@
+.ron-topnav-mini-nav-menu {
+	float: right;
+}
+.ron-dropdown-selectable {
+	margin-top: 10px
+}
+
+.dropdown-ron {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content-ron {
+  display: none;
+	background-color: #ffffff;
+  position: absolute;
+  width: 200px;
+  overflow: auto;
+	z-index: 1;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+
+@media (max-width: 1000px) {
+    .dropdown-content-ron {
+    position: inline;
+		padding-bottom: 5px;
+		z-index: 9999;
+		right: 0;
+    }
+}
+
+.dropdown-ron:hover .dropdown-content-ron {
+  display: block;
+}
+.dropdown-content-ron
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content-ron a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
+
+.utility-bar-right {
+    min-width: 300px;
+}
+
+.nav-social {
+    background-color: #ee7202;
+}
+
+.nav-social a {
+    color: #ffffff;
+}
+.nav-social a :hover {
+    color: #000000;
+}
+
+.wp-block-getwid-banner__caption-wrapper{
+  font-family: Source Sans Pro; font-size:1.5em; -0.01em;
+}
+
+/* rightmenu in Rons topnavn info bar fixer
+-------------------------------------------------------- */
+.ron-mini-right-frist {
+		display: inline-block;
+		margin-right: 15px;
+		color: #000000;
+}
+.ron-mini-right-center-devider {
+		display: inline-block;
+		margin-right: 15px;
+		color: #000000;
+}
+.ron-mini-right-last {
+		display: inline-block;
+		color: #000000;
+}
+.ron-mini-right-frist a:link {
+    color: #000000
+}
+.ron-mini-right-frist a:visited {
+    color: #000000
+}
+.ron-mini-right-center-devider a:link {
+    color: #000000
+}
+.ron-mini-right-center-devider a:visited {
+    color: #000000
+}
+.ron-mini-right-last a:link {
+    color: #000000
+}
+.ron-mini-right-last a:visited {
+    color: #000000
+}
+@media screen and (max-width: 780px) { 
+  .utility-bar-left { 
+    display: none; 
+  } 
+}
+@media screen and (max-width: 780px) { 
+.ron-mini-right-last {
+    margin-right: 5px;
+}
+}
+/* Rons stoerre tekst i navmenu
+-------------------------------------------------------- */
+.genesis-nav-menu a {
+    font-size: 20px;
+}
+/* Rons 4 Column Widgets footer fix
+-------------------------------------------------------- */
+.footer-widgets {
+    border-top: 1px solid #eee;
+    background-color: #fff;
+    color: #000000;
+    clear: both;
+    font-size: 10px;
+    font-size: 0.9rem;
+    padding: 60px 0;
+    width: 100%;
+		display: flex;
+  	justify-content: center;
+}
+.footer-widgets .wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer-widget-area {
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.footer-widget-area:last-child,
+.footer-widgets .widget:last-child {
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 767px) {
+    .footer-widget-area {
+        float: left;
+        margin-bottom: 30px;
+        width: 100% !important;
+        /* fallback for older browsers */
+        width: calc(100% / 1);
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .footer-widgets .wrap {
+        max-width: 1140px;
+    }
+    .footer-widget-area {
+        float: left;
+        margin-bottom: 20px;
+        width: 50%;
+        /* fallback for older browsers */
+        width: calc(100% / 2);
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .footer-widgets .wrap {
+        max-width: 1200px;
+			  min-width: 1200px;
+    }
+    .footer-widget-area {
+        float: left;
+        margin-bottom: 0;
+        width: 25%;
+        /* fallback for older browsers */
+        width: calc(100% / 4);
+    }
+	.utility-bar-right {
+    padding-right: 5%;
+}
+}
+/* Rons homepage fixer
+-------------------------------------------------------- */
+.rons-frontpage-ctr-boxes-minheight {
+    min-height: 140px;
+}
+/* Rons topnav-info-bar
+-------------------------------------------------------- */
+.utility-bar-left {
+    float: left;
+    padding: 0 0 0 0;
+    margin: 0px 0 0 0;
+    position: relative;
+		font-size: 14px;
+	  color: #ee7202;
+}
+.utility-bar-right {
+    float: right;
+    padding: 0 0 0 0;
+    margin: -10px 0 0 0;
+		color: #ee7202;
+		font-size: 14px;
+}
+.utility-bar-left a:link {
+text-decoration: none;
+	
+}
+.utility-bar-right a:link {
+text-decoration: none;
+	
+}
+.ron-topnav-tel {
+		display: inline-block;
+		margin-right: 30px;
+}
+.utility-bar-left a:link {
+    color: #000000
+}
+.utility-bar-right a:link {
+    color: #000000
+}
+.ron-topnav-email {
+     display: inline-block;
+}
+.utility-bar {
+        padding-top: 2em;
+        padding-bottom: 1em;
+}
+	@media screen and (max-width: 200px) {
+  .utility-bar-right {
+    padding-right: 5%;
+}
+	.ron-topnav-contactinfo {
+    width: 100%;
+		color: fff;
+		display: none;
+}
+.wp-block-social-links.is-style-logos-only .wp-social-link-tiktok {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+		
+/*
+ *    ┌──────▀▀▀▀ ▀▀─────────────── ██ ──────────────────────▀▀▄▄▄  ▄▄▄────┐
+   : ░                            ▀█▄    ▄                      ▀▀      ░ :
+   |                               		                                 |
+   |Herning HF og VUC website is made by https://www.youtube.com/@brevstgaard|
+   |                                                           	       |
+   |       🌎 Ron Brevstgaard  	      🧕 The-man   	  💪 Kick-ass    |
+   |                                                         	        |
+   |                                                        	      	|
+   |                                                                    |
+   |                                                                    |
+   | ░                                                                 	    ░|
+   └───────▀▀▀▀ ▀▀───────────────────────────────────────────▀▀ ▀▀──────-─┘*/
